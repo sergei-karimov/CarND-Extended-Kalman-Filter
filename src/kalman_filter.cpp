@@ -27,7 +27,6 @@ void KalmanFilter::Predict() {
     /**
     * TODO: predict the state
     */
-    std::cout << "Initial X is " << x_ << "Initial P is " << P_ << "Initial Q is " << Q_ << std::endl;
     x_ = F_ * x_;
     MatrixXd Ft = F_.transpose();
     P_ = F_ * P_ * Ft + Q_;
@@ -59,10 +58,10 @@ void KalmanFilter::UpdateEKF(const VectorXd &z) {
     double vx = x_(2);
     double vy = x_(3);
     double rho = sqrt(px * px + py * py);
-    double theta = atan2(py, px);
+    double phi = atan2(py, px);
     double rho_dot = (px * vx + py * vy) / rho;
     VectorXd h = VectorXd(3);
-    h << rho, theta, rho_dot;
+    h << rho, phi, rho_dot;
     VectorXd y = z - h;
     while (y(1) > M_PI) {
         y(1) -= 2 * M_PI;

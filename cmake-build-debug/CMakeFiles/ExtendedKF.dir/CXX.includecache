@@ -1002,6 +1002,32 @@ Eigen/src/Core/util/MKL_support.h
 
 /Users/sergei/source/repos/udacity/self_driving_car/CPP/CarND-Extended-Kalman-Filter/src/Eigen/src/plugins/MatrixCwiseUnaryOps.h
 
+/Users/sergei/source/repos/udacity/self_driving_car/CPP/CarND-Extended-Kalman-Filter/src/FusionEKF.cpp
+FusionEKF.h
+/Users/sergei/source/repos/udacity/self_driving_car/CPP/CarND-Extended-Kalman-Filter/src/FusionEKF.h
+iostream
+-
+Eigen/Dense
+/Users/sergei/source/repos/udacity/self_driving_car/CPP/CarND-Extended-Kalman-Filter/src/Eigen/Dense
+tools.h
+/Users/sergei/source/repos/udacity/self_driving_car/CPP/CarND-Extended-Kalman-Filter/src/tools.h
+
+/Users/sergei/source/repos/udacity/self_driving_car/CPP/CarND-Extended-Kalman-Filter/src/FusionEKF.h
+fstream
+-
+string
+-
+vector
+-
+Eigen/Dense
+/Users/sergei/source/repos/udacity/self_driving_car/CPP/CarND-Extended-Kalman-Filter/src/Eigen/Dense
+kalman_filter.h
+/Users/sergei/source/repos/udacity/self_driving_car/CPP/CarND-Extended-Kalman-Filter/src/kalman_filter.h
+measurement_package.h
+/Users/sergei/source/repos/udacity/self_driving_car/CPP/CarND-Extended-Kalman-Filter/src/measurement_package.h
+tools.h
+/Users/sergei/source/repos/udacity/self_driving_car/CPP/CarND-Extended-Kalman-Filter/src/tools.h
+
 /Users/sergei/source/repos/udacity/self_driving_car/CPP/CarND-Extended-Kalman-Filter/src/kalman_filter.cpp
 iostream
 -
@@ -1009,6 +1035,10 @@ kalman_filter.h
 /Users/sergei/source/repos/udacity/self_driving_car/CPP/CarND-Extended-Kalman-Filter/src/kalman_filter.h
 
 /Users/sergei/source/repos/udacity/self_driving_car/CPP/CarND-Extended-Kalman-Filter/src/kalman_filter.h
+Eigen/Dense
+/Users/sergei/source/repos/udacity/self_driving_car/CPP/CarND-Extended-Kalman-Filter/src/Eigen/Dense
+
+/Users/sergei/source/repos/udacity/self_driving_car/CPP/CarND-Extended-Kalman-Filter/src/measurement_package.h
 Eigen/Dense
 /Users/sergei/source/repos/udacity/self_driving_car/CPP/CarND-Extended-Kalman-Filter/src/Eigen/Dense
 
